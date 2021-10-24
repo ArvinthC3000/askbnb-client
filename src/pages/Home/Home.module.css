@@ -1,0 +1,10 @@
+.homeContainer {
+  height: 92%;
+  background-image: url('../../assets/landing-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.footerContainer {
+  height: 8%;
+}
