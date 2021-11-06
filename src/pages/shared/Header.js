@@ -2,9 +2,12 @@ import { Button } from 'semantic-ui-react';
 import style from './Header.module.css';
 import logo from './ASK.svg';
 
-const Header = () => {
+const Header = ({ color }) => {
+  console.log(color);
   return (
-    <div className={style.headerContainer}>
+    <div
+      className={style.headerContainer}
+      style={{ backgroundColor: color || 'none' }}>
       <div className={style.logoContainer}>
         <img src={logo} alt='logo' /> BnB
       </div>
